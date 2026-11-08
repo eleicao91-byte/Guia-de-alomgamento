@@ -1,0 +1,57 @@
+@import url('../styles.css');
+@page {size:A4;margin:12mm}
+body {background:var(--paper);font-size:10pt;line-height:1.38}
+.sheet {width:min(100%,186mm);min-height:270mm;margin:10mm auto;padding:9mm;background:var(--white);display:flex;flex-direction:column;gap:4mm}
+.sheet h1 {font-size:29pt;max-width:none;margin:0;text-wrap:initial}
+.sheet h2 {font-size:14pt;margin:0 0 2mm;text-wrap:initial}
+.sheet h3 {font-size:11pt;text-wrap:initial}
+.sheet header {background:var(--mint);padding:5mm;border-radius:var(--radius)}
+.kicker {font-weight:800;letter-spacing:.08em;color:var(--teal);margin-bottom:1mm}
+.sheet footer {margin-top:auto;padding:3mm 0 0;background:none;color:var(--muted);text-align:left;border-top:1px solid var(--line);font-size:8.5pt}
+.week {border:1px solid var(--line);border-radius:10px;padding:2mm;break-inside:avoid}
+.week h2 {font-size:11pt}
+.week h2 span {font-size:9pt;font-weight:500}
+.days {display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:1mm}
+.day {min-height:23mm;padding:1.2mm;background:var(--cream);border-radius:5px;font-size:7.5pt;overflow-wrap:anywhere}
+.day b {display:flex;justify-content:space-between;gap:1mm;color:var(--teal)}
+.box {display:inline-block;flex:none;width:3.2mm;height:3.2mm;border:1px solid currentColor;border-radius:2px}
+.day small {display:block;margin-top:.6mm}
+.note {font-size:8pt;border-bottom:1px solid var(--line);margin-top:1mm;min-height:4.5mm}
+.notice {padding:4mm;background:var(--cream);border-left:4px solid var(--teal);font-weight:700}
+.check-item {display:flex;align-items:baseline;gap:3mm;border-bottom:1px solid var(--line);padding:3mm 1mm}
+.poster-list {display:grid;gap:2mm}
+.poster-list li {display:grid;grid-template-columns:23mm 1fr auto;align-items:center;gap:4mm;border:1px solid var(--line);border-radius:12px;padding:2mm 3mm;background:var(--mint)}
+.poster-list svg {width:23mm;height:19mm;color:var(--teal)}
+.poster-list strong {color:var(--teal);white-space:nowrap}
+.poster-bottom {display:flex;align-items:center;gap:4mm}
+.reserve {display:grid;place-items:center;min-height:18mm;min-width:23mm;border:1px dashed currentColor;text-align:center;font-size:8pt}
+.mono {--mint:white;--cream:white;--teal:black;--line:#444;--muted:#222;--ink:black;--coral:black}
+@media screen and (max-width:600px) {.sheet {margin:0 auto;padding:4mm}.days {grid-template-columns:repeat(4,minmax(0,1fr))}.sheet h1 {font-size:22pt}}
+@media print {body {background:white;print-color-adjust:exact;-webkit-print-color-adjust:exact}.sheet {width:100%;margin:0;min-height:269mm;padding:4mm;break-after:page}.sheet:last-child {break-after:auto}.sheet footer {padding-bottom:0}}
+@media screen and (max-width:767px) {
+  body {font-size:15px;line-height:1.5}
+  .sheet {width:100%;min-height:0;margin:0 auto 20px;padding:16px;gap:16px}
+  .sheet header {padding:16px}
+  .sheet h1 {font-size:28px;overflow-wrap:break-word}
+  .sheet h2 {font-size:18px}
+  .sheet h3 {font-size:15px}
+  .week {padding:12px}
+  .week h2 span {display:block;font-size:13px;margin-top:4px}
+  .days {grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .day {font-size:13px;min-height:100px;padding:8px;overflow-wrap:normal}
+  .day b {gap:4px;font-size:14px}
+  .day small {font-size:12px}
+  .note,.sheet footer {font-size:12px}
+  .check-item {padding:14px 0;gap:10px}
+  .poster-list li {grid-template-columns:48px minmax(0,1fr) auto;gap:8px;padding:12px 8px}
+  .poster-list svg {width:48px;height:auto}
+  .poster-list strong {font-size:13px}
+  .poster-bottom {flex-wrap:wrap}
+  .notice {padding:12px}
+}
+@media print {
+  .sheet:has(.week) {gap:2mm}
+  .week {padding:1.5mm}
+  .week .day {min-height:18mm}
+  .week .note {min-height:4mm}
+}

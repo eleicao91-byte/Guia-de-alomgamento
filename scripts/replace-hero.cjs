@@ -1,0 +1,24 @@
+const fs = require('fs');
+const path = require('path');
+const sharp = require('sharp');
+const root = path.resolve(__dirname, '..');
+(async () => {
+  const src = 'C:/Users/bruno/AppData/Local/Temp/codex-clipboard-6ef694f1-3a0e-4c83-937e-528fc7e4964b.png';
+  const dest = path.join(root, 'assets/images/hero-expert-foto.webp');
+  await sharp(src).webp({quality:90}).toFile(dest);
+  const meta = await sharp(dest).metadata();
+  const manifestPath = path.join(root, 'assets/images/manifest.json');
+  const items = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  const hero = items.find(x => x.id === 'hero');
+  hero.file = 'hero-expert-foto.webp';
+  hero.desktop = hero.mobile = [meta.width, meta.height];
+  delete hero.mobileFile;
+  delete hero.fallback;
+  hero.alt = 'Guia completo de alongamento com livro digital, celular e expert de polo azul.';
+  hero.prompt = 'Imagem fornecida pelo usuário, preservada sem alteração de conteúdo.';
+  fs.writeFileSync(manifestPath, JSON.stringify(items, null, 2) + '\n');
+  const htmlPath = path.join(root, 'index.html');
+  const html = fs.readFileSync(htmlPath, 'utf8').replace('<img src="assets/banner-guia.png" width="1536" height="1024" alt="Guia ilustrado de alongamento em PDF.">', `<img src="assets/images/hero-expert-foto.webp" width="${meta.width}" height="${meta.height}" alt="${hero.alt}">`);
+  fs.writeFileSync(htmlPath, html);
+  console.log(`${meta.width}x${meta.height}: imagem principal substituída.`);
+})();
