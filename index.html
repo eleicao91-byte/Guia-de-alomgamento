@@ -6,10 +6,22 @@
 <meta name="description" content="Guia digital de pausas ativas de 2 a 10 minutos, com passo a passo ilustrado.">
 <meta property="og:type" content="website"><meta property="og:title" content="Alongamento para quem trabalha em pé ou sentado"><meta property="og:description" content="Rotinas ilustradas para encaixar pausas no dia."><meta name="theme-color" content="#102C58">
 <meta property="og:image" content="/assets/images/open-graph.webp"><meta property="og:image:alt" content="Guia de alongamento para quem trabalha em pé ou sentado"><link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&amp;display=swap">
-<!-- Utmify: cole aqui o script oficial da sua conta. -->
-<script src="config.js" defer></script><script src="script.js" defer></script><script src="slots.js" defer></script>
+<script src="config.js" defer></script><script src="meta-pixel.js" defer></script><script src="script.js" defer></script><script src="slots.js" defer></script>
+<!-- UTMify: preservação de UTMs e identificadores de origem -->
+<script>
+(function () {
+  var utmifyScript = document.createElement('script');
+  utmifyScript.src = 'https://cdn.utmify.com.br/scripts/utms/latest.js';
+  utmifyScript.async = true;
+  utmifyScript.defer = true;
+  utmifyScript.setAttribute('data-utmify-prevent-xcod-sck', '');
+  utmifyScript.setAttribute('data-utmify-prevent-subids', '');
+  (document.head || document.documentElement).appendChild(utmifyScript);
+})();
+</script>
 </head>
 <body class="landing">
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1810741443566756&ev=PageView&noscript=1" alt=""></noscript>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 <header class="ribbon promo-ribbon"><strong>⏰ A promoção dessa página acaba no dia <span data-visit-date></span></strong></header>
 <main id="conteudo">
@@ -40,6 +52,21 @@
 </main>
 <footer class="site-end-banner"><p class="site-end-title">Guia de Alongamento para Quem Trabalha em Pé ou Sentado</p><p>© 2026 Todos os direitos reservados.</p><nav aria-label="Informações legais"><a href="termos.html">Termos de uso</a><a href="privacidade.html">Privacidade</a></nav></footer>
 <dialog id="exit-offer" aria-labelledby="exit-title"><form method="dialog"><button class="close" value="close" aria-label="Fechar" autofocus>×</button></form><div class="exit-art" data-img="popup"></div><h2 id="exit-title">Quer começar com uma versão menor?</h2><p>Leve a Rotina de 5 Minutos por <strong data-price="downsell"></strong>.</p><a class="button" data-checkout="downsell">Quero a Rotina de 5 Minutos</a><form method="dialog"><button class="secondary" value="decline">Agora não</button></form></dialog>
+<dialog id="upgrade-offer" aria-labelledby="upgrade-title" aria-describedby="upgrade-description">
+<form method="dialog"><button class="close" aria-label="Fechar oferta" autofocus>×</button></form>
+<p class="eyebrow">OFERTA ESPECIAL PARA VOCÊ</p>
+<h2 id="upgrade-title">Leve o acesso completo por <span data-price="promo">R$ 13,90</span></h2>
+<div class="upgrade-art" data-img="hero" data-decorative></div>
+<p id="upgrade-description">Por apenas R$ 4,00 a mais, receba o plano completo com todos os bônus.</p>
+<p class="upgrade-total">Pagamento único de <strong data-price="promo">R$ 13,90</strong></p>
+<a class="button" data-checkout="promo">QUERO A OFERTA DE R$ 13,90</a>
+<a class="secondary" data-checkout="basico" data-skip-offer>Continuar com o básico por R$ 9,90</a>
+</dialog>
+<dialog id="checkout-unavailable" aria-labelledby="checkout-unavailable-title">
+<h2 id="checkout-unavailable-title">Oferta temporariamente indisponível</h2>
+<p>Este pagamento ainda não está disponível. Volte para escolher outra opção.</p>
+<form method="dialog"><button class="button">Voltar</button></form>
+</dialog>
 </body></html>
 
 

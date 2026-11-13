@@ -21,7 +21,7 @@ document.addEventListener('visibilitychange', () => {
   if (!document.hidden) updateVisitDate();
 });
 const isPrice = (value) => Number.isFinite(value) && value > 0;
-const prices = { basico: config.PRECO_BASICO, completo: config.PRECO_COMPLETO, downsell: config.PRECO_DOWNSELL };
+const prices = { promo: config.PRECO_PROMO, basico: config.PRECO_BASICO, completo: config.PRECO_COMPLETO, downsell: config.PRECO_DOWNSELL };
 
 function readSession(key) {
   try { return sessionStorage.getItem(key); } catch { return null; }
@@ -78,39 +78,33 @@ function track(event, payload) {
   if (typeof window.fbq === 'function') window.fbq('track', event, payload);
 }
 
-// Meta Pixel opcional. Defina PIXEL_ID em config.js para carregar o script oficial.
-if (/^\d+$/.test(config.PIXEL_ID)) {
-  const queue = function (...args) {
-    if (queue.callMethod) queue.callMethod.apply(queue, args);
-    else queue.queue.push(args);
-  };
-  queue.queue = [];
-  queue.push = queue;
-  queue.loaded = true;
-  queue.version = '2.0';
-  window.fbq = queue;
-  window._fbq = queue;
-  const pixel = document.createElement('script');
-  pixel.async = true;
-  pixel.src = 'https://connect.facebook.net/en_US/fbevents.js';
-  document.head.append(pixel);
-  window.fbq('init', config.PIXEL_ID);
-  track('PageView');
+// O carregamento do Meta Pixel e o PageView são feitos por meta-pixel.js.
+if (typeof window.fbq === 'function') {
   track('ViewContent', { content_name: brand });
 }
 
+const promoOffer = select('#upgrade-offer');
 for (const link of selectAll('[data-checkout]')) {
   const plan = link.dataset.checkout;
   const url = checkoutURL(config['CHECKOUT_URL_' + plan.toUpperCase()]);
-  if (!url || !isPrice(prices[plan])) {
-    link.setAttribute('role', 'link');
-    link.setAttribute('aria-disabled', 'true');
-    continue;
-  }
-  link.href = url;
-  link.addEventListener('click', () => track('InitiateCheckout', {
-    plan, content_name: plan === 'completo' ? 'Guia + 3 bônus' : 'Guia de alongamento', currency: 'BRL', value: prices[plan],
-  }));
+  const showPromo = plan === 'basico' && !link.hasAttribute('data-skip-offer');
+  link.href = showPromo ? '#upgrade-offer' : (url || '#checkout-unavailable');
+  link.addEventListener('click', (event) => {
+    if (showPromo) {
+      event.preventDefault();
+      promoOffer.showModal();
+      return;
+    }
+    if (!url || !isPrice(prices[plan])) {
+      event.preventDefault();
+      select('#checkout-unavailable').showModal();
+      return;
+    }
+    track('InitiateCheckout', {
+      plan, content_name: plan === 'basico' ? 'Guia de alongamento' : 'Guia completo + bônus',
+      currency: 'BRL', value: prices[plan],
+    });
+  });
 }
 for (const link of selectAll('[data-plan-cta]')) {
   link.addEventListener('click', () => {

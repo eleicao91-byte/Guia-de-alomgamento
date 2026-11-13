@@ -1,0 +1,601 @@
+[
+  {
+    "id": "hero",
+    "section": "Topo",
+    "desktop": [
+      1448,
+      1086
+    ],
+    "mobile": [
+      1448,
+      1086
+    ],
+    "file": "hero-expert-foto.webp",
+    "format": "WebP",
+    "alt": "Guia completo de alongamento com livro digital, celular e expert de polo azul.",
+    "prompt": "Imagem fornecida pelo usuário, preservada sem alteração de conteúdo.",
+    "variants": [
+      {
+        "file": "hero-expert-foto-640w.webp",
+        "width": 640
+      },
+      {
+        "file": "hero-expert-foto-1040w.webp",
+        "width": 1040
+      }
+    ]
+  },
+  {
+    "id": "rotina-1",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "rotina-1-modelo-foto.webp",
+    "format": "WebP",
+    "alt": "Homem sentado com o tornozelo apoiado sobre a coxa oposta.",
+    "prompt": "Imagem original fornecida pelo usuário, sem alteração de conteúdo.",
+    "variants": [
+      {
+        "file": "rotina-1-modelo-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "rotina-1-modelo-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "id": "rotina-2",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "rotina-2-enviada-foto.webp",
+    "format": "WebP",
+    "alt": "Homem em pé alonga os braços acima da cabeça.",
+    "prompt": "Imagem fornecida pelo usuário. Preservar o conteúdo e o enquadramento do arquivo original.",
+    "variants": [
+      {
+        "file": "rotina-2-enviada-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "rotina-2-enviada-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "id": "rotina-3",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "rotina-3-enviada-foto.webp",
+    "format": "WebP",
+    "alt": "Homem ajoelhado em um joelho faz alongamento com a outra perna à frente.",
+    "prompt": "Imagem fornecida pelo usuário. Preservar o conteúdo e o enquadramento do arquivo original.",
+    "variants": [
+      {
+        "file": "rotina-3-enviada-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "rotina-3-enviada-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "id": "rotina-4",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "rotina-4-enviada-foto.webp",
+    "format": "WebP",
+    "alt": "Homem em pé alonga um braço cruzado diante do peito.",
+    "prompt": "Imagem fornecida pelo usuário. Preservar o conteúdo e o enquadramento do arquivo original.",
+    "variants": [
+      {
+        "file": "rotina-4-enviada-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "rotina-4-enviada-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "id": "rotina-5",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "rotina-5-enviada-foto.webp",
+    "format": "WebP",
+    "alt": "Homem em pé segura o pé atrás do corpo com o joelho dobrado.",
+    "prompt": "Imagem fornecida pelo usuário. Preservar o conteúdo e o enquadramento do arquivo original.",
+    "variants": [
+      {
+        "file": "rotina-5-enviada-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "rotina-5-enviada-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "id": "rotina-6",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "rotina-6-enviada-foto.webp",
+    "format": "WebP",
+    "alt": "Homem em pé alonga o punho com o braço estendido.",
+    "prompt": "Imagem fornecida pelo usuário. Preservar o conteúdo e o enquadramento do arquivo original.",
+    "variants": [
+      {
+        "file": "rotina-6-enviada-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "rotina-6-enviada-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "id": "rotina-7",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "rotina-7-enviada-foto.webp",
+    "format": "WebP",
+    "alt": "Homem sentado alonga os braços acima da cabeça.",
+    "prompt": "Imagem fornecida pelo usuário. Preservar o conteúdo e o enquadramento do arquivo original.",
+    "variants": [
+      {
+        "file": "rotina-7-enviada-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "rotina-7-enviada-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "id": "rotina-8",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "rotina-8-enviada-foto.webp",
+    "format": "WebP",
+    "alt": "Homem sentado gira o tronco com um braço estendido para o lado.",
+    "prompt": "Imagem fornecida pelo usuário. Preservar o conteúdo e o enquadramento do arquivo original.",
+    "variants": [
+      {
+        "file": "rotina-8-enviada-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "rotina-8-enviada-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "id": "categoria-1",
+    "section": "Categorias",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "categoria-1.webp",
+    "format": "WebP",
+    "alt": "Cadeira de escritório",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone simples de cadeira de escritório sobre fundo azul claro."
+  },
+  {
+    "id": "categoria-2",
+    "section": "Categorias",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "categoria-2.webp",
+    "format": "WebP",
+    "alt": "Tênis",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone simples de tênis sobre fundo azul claro."
+  },
+  {
+    "id": "categoria-3",
+    "section": "Categorias",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "categoria-3.webp",
+    "format": "WebP",
+    "alt": "Lombar estilizada",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone simples de lombar estilizada sobre fundo azul claro."
+  },
+  {
+    "id": "categoria-4",
+    "section": "Categorias",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "categoria-4.webp",
+    "format": "WebP",
+    "alt": "Pescoço e ombros",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone simples de pescoço e ombros sobre fundo azul claro."
+  },
+  {
+    "id": "categoria-5",
+    "section": "Categorias",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "categoria-5.webp",
+    "format": "WebP",
+    "alt": "Relógio",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone simples de relógio sobre fundo azul claro."
+  },
+  {
+    "id": "categoria-6",
+    "section": "Categorias",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "categoria-6.webp",
+    "format": "WebP",
+    "alt": "Lua",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone simples de lua sobre fundo azul claro."
+  },
+  {
+    "id": "categoria-7",
+    "section": "Categorias",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "categoria-7.webp",
+    "format": "WebP",
+    "alt": "Ônibus",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone simples de ônibus sobre fundo azul claro."
+  },
+  {
+    "id": "plano",
+    "section": "Acesso completo",
+    "desktop": [
+      1000,
+      700
+    ],
+    "mobile": [
+      1000,
+      700
+    ],
+    "file": "plano.webp",
+    "format": "WebP",
+    "fallback": "../banner-guia.png",
+    "alt": "Guia digital de alongamento com materiais para o dia a dia.",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Mockup ilustrado do guia, calendário, checklist e cartaz, sem preço."
+  },
+  {
+    "id": "garantia",
+    "section": "Garantia",
+    "desktop": [
+      512,
+      512
+    ],
+    "mobile": [
+      512,
+      512
+    ],
+    "file": "garantia.webp",
+    "format": "WebP",
+    "alt": "Escudo com marca de confirmação.",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Escudo azul-marinho com marca branca em fundo azul claro."
+  },
+  {
+    "id": "recebimento-1",
+    "section": "Recebimento",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "recebimento-1.webp",
+    "format": "WebP",
+    "alt": "Celular",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone central de celular sobre fundo areia."
+  },
+  {
+    "id": "recebimento-2",
+    "section": "Recebimento",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "recebimento-2.webp",
+    "format": "WebP",
+    "alt": "Notebook",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone central de notebook sobre fundo areia."
+  },
+  {
+    "id": "recebimento-3",
+    "section": "Recebimento",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "recebimento-3.webp",
+    "format": "WebP",
+    "alt": "Impressora",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone central de impressora sobre fundo areia."
+  },
+  {
+    "id": "recebimento-4",
+    "section": "Recebimento",
+    "desktop": [
+      256,
+      256
+    ],
+    "mobile": [
+      256,
+      256
+    ],
+    "file": "recebimento-4.webp",
+    "format": "WebP",
+    "alt": "Raio de envio imediato",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Ícone central de raio de envio imediato sobre fundo areia."
+  },
+  {
+    "id": "popup",
+    "section": "Oferta de saída",
+    "desktop": [
+      800,
+      600
+    ],
+    "mobile": [
+      800,
+      600
+    ],
+    "file": "popup.webp",
+    "format": "WebP",
+    "alt": "Relógio representando uma pausa de cinco minutos.",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Relógio simples com indicação de cinco minutos em fundo azul claro."
+  },
+  {
+    "id": "bonus-1",
+    "section": "Bônus e página de obrigado",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "bonus/bonus-1-livro-expert.webp",
+    "format": "WebP",
+    "alt": "Livro 1 com o expert das imagens de prática na capa.",
+    "prompt": "Use case: product-mockup, identity-preserve. Generate an ORIGINAL new book-cover photograph, not a reuse or crop of any existing photo. Reference image is ONLY for the male expert's identity, exact navy polo, brown shorts, short graying hair, short beard, headset microphone and blue-gray studio with cork mats, tall plant, yoga poster and black/red chair. Change pose, camera framing and composition completely. NEW scene: expert stands beside a wall-mounted blank monthly planning grid, gently performing a side bend with one arm overhead, other hand on hip. Three-quarter view. Show torso and face clearly; calendar is secondary. Place this new photo in lower 55% of ONE upright hardcover book mockup, upper 45% has exact Portuguese title \"Rotina mensal de alongamento\". Title must match exactly the bonus offer, no extra cover wording. Clean light-blue/navy cover, thin orange separator, bold highly legible typography. Near-frontal view with narrow left spine, entire book centered with consistent margin in square product photo, near-white studio background, soft shadow. No price, bonus badge, credentials, author name or watermark. Realistic anatomy, natural calm expression, recognizable same expert.",
+    "variants": [
+      {
+        "file": "bonus/bonus-1-livro-expert-320w.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "id": "bonus-2",
+    "section": "Bônus e página de obrigado",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "bonus/bonus-2-livro-expert.webp",
+    "format": "WebP",
+    "alt": "Livro 2 com o expert das imagens de prática na capa.",
+    "prompt": "Use case: product-mockup, identity-preserve. Generate an ORIGINAL new book-cover photograph, not a reuse or crop of any existing photo. Reference image is ONLY for the male expert's identity, exact navy polo, brown shorts, short graying hair, short beard, headset microphone and blue-gray studio with cork mats, tall plant, yoga poster and black/red chair. Change pose, camera framing and composition completely. NEW scene: expert sits upright on the black/red office chair with both feet flat and parallel on floor, gently tilts head sideways while opposite hand reaches down beside chair. Frontal three-quarter portrait. No crossed legs and no arms overhead. Place this new photo in lower 55% of ONE upright hardcover book mockup, upper 45% has exact Portuguese title \"Alongamentos para fazer enquanto está sentado\". Title must match exactly the bonus offer, no extra cover wording. Clean light-blue/navy cover, thin orange separator, bold highly legible typography. Near-frontal view with narrow left spine, entire book centered with consistent margin in square product photo, near-white studio background, soft shadow. No price, bonus badge, credentials, author name or watermark. Realistic anatomy, natural calm expression, recognizable same expert.",
+    "variants": [
+      {
+        "file": "bonus/bonus-2-livro-expert-320w.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "id": "bonus-3",
+    "section": "Bônus e página de obrigado",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "bonus/bonus-3-livro-expert.webp",
+    "format": "WebP",
+    "alt": "Livro 3 com o expert das imagens de prática na capa.",
+    "prompt": "Use case: product-mockup, identity-preserve. Generate an ORIGINAL new book-cover photograph, not a reuse or crop of any existing photo. Reference image is ONLY for the male expert's identity, exact navy polo, brown shorts, short graying hair, short beard, headset microphone and blue-gray studio with cork mats, tall plant, yoga poster and black/red chair. Change pose, camera framing and composition completely. NEW scene: expert stands in studio beside a small table, looking down as he places a bowl of vegetables beside a balanced meal, with fruit and glass of water. Candid three-quarter composition. No seated hands-clasped pose. Place this new photo in lower 55% of ONE upright hardcover book mockup, upper 45% has exact Portuguese title \"Guia alimentar para auxiliar na evolução corporal\". Title must match exactly the bonus offer, no extra cover wording. Clean light-blue/navy cover, thin orange separator, bold highly legible typography. Near-frontal view with narrow left spine, entire book centered with consistent margin in square product photo, near-white studio background, soft shadow. No price, bonus badge, credentials, author name or watermark. Realistic anatomy, natural calm expression, recognizable same expert.",
+    "variants": [
+      {
+        "file": "bonus/bonus-3-livro-expert-320w.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "id": "open-graph",
+    "section": "Compartilhamento",
+    "desktop": [
+      1200,
+      630
+    ],
+    "mobile": [
+      1200,
+      630
+    ],
+    "file": "open-graph.webp",
+    "format": "WebP",
+    "alt": "Guia digital de alongamento para quem trabalha em pé ou sentado.",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Composição horizontal com capa do guia e cenas de pausa, com texto central legível."
+  },
+  {
+    "id": "favicon",
+    "section": "Aba do navegador",
+    "desktop": [
+      64,
+      64
+    ],
+    "mobile": [
+      64,
+      64
+    ],
+    "file": "favicon.svg",
+    "format": "SVG",
+    "alt": "Ícone de folha.",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Folha simples sobre fundo azul-marinho, legível em tamanho pequeno."
+  },
+  {
+    "id": "logo",
+    "section": "Cabeçalho",
+    "desktop": [
+      320,
+      96
+    ],
+    "mobile": [
+      256,
+      80
+    ],
+    "file": "logo.svg",
+    "format": "SVG",
+    "alt": "Marca do guia de alongamento.",
+    "prompt": "Ilustração plana em traço arredondado, azul claro, azul-marinho, creme e amarelo dourado, sem marcas ou fotos. Wordmark compacto da marca do guia, com fundo transparente."
+  },
+  {
+    "id": "outras-rotinas",
+    "section": "Carrossel",
+    "desktop": [
+      800,
+      800
+    ],
+    "mobile": [
+      800,
+      800
+    ],
+    "file": "outras-rotinas-foto.webp",
+    "format": "WebP",
+    "alt": "Homem sentado alonga um braço acima da cabeça no mesmo estúdio.",
+    "prompt": "Imagem editada a partir da referência enviada. Mesmo homem, vestuário e estúdio, em alongamento de braço sentado.",
+    "variants": [
+      {
+        "file": "outras-rotinas-foto-320w.webp",
+        "width": 320
+      },
+      {
+        "file": "outras-rotinas-foto-640w.webp",
+        "width": 640
+      }
+    ]
+  }
+]
